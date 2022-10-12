@@ -1,8 +1,8 @@
 #Build steps
 FROM node:alpine3.10 as build-step
 
-RUN apt-get -y update
-RUN apt-get -y install git
+#RUN apt-get -y update
+#RUN apt-get -y install git
 
 RUN mkdir /app
 WORKDIR /app
